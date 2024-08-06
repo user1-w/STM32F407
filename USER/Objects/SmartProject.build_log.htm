@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 wang021117@qq.com, 1, LIC=FQQMA-1BR4H-5BIEB-2QAFX-X4RUM-8HS9A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\wang0\Desktop\SmartProject\USER\SmartProject.uvprojx
+Project File Date:  07/25/2024
+
+<h2>Output:</h2>
+Build target 'SmartProject'
+compiling user.c...
+user.c(36): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                numdian = (numdian/4096)*3.3;
+user.c: 1 warning, 0 errors
+compiling USART.c...
+..\HARDWARE\USART.c(142): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                        W25Q64_Write_Page(shujv,0,strlen(shujv));
+..\HARDWARE\USART.c(158): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                                W25Q64_Read_Data(0,buff1,strlen(shujv));
+..\HARDWARE\USART.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=14516 RO-data=1944 RW-data=556 ZI-data=1596  
+FromELF: creating hex file...
+".\Objects\SmartProject.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\wang0\Desktop\SmartProject\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
